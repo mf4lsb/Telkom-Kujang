@@ -1,0 +1,58 @@
+.bg {
+	background-image: url("../img/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.table-size {
+	font-size: 10px;
+}
+
+.bg-sidebar {
+	background-color: darkred;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(10%, #4e73df),
+		to(#224abe)
+	);
+	background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+	background-size: cover;
+}
+
+.error2 {
+	color: #06070e;
+	font-size: 7rem;
+	position: relative;
+	line-height: 1;
+	width: 12.5rem;
+}
+
+#wrapper2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#wrapper2 #content-wrapper2 {
+	background-color: #000000;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+#wrapper2 #content-wrapper2 #content {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+}
+
+.text-white-100 {
+	color: #f6f6f6 !important;
+}
+
+.table-size {
+	font-size: 10px;
+}

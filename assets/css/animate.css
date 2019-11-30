@@ -1,0 +1,22 @@
+.animate {
+	animation-name: fadeInShow;
+	animation-delay: 300ms;
+	animation-duration: 3s;
+}
+
+.animate-login {
+	animation: fadeInShow 3s 100ms;
+}
+
+@keyframes fadeInShow {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.card-auto-center {
+	margin-top: 10%;
+}
